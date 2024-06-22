@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://aurora.thzstudent.top/sitemap.xml
