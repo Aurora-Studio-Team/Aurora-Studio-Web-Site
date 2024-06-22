@@ -23,8 +23,10 @@ export default hopeTheme({
     "/": {
       logo: "/logo.svg",
       navbar: [
-        { text: "Home", link: "/", icon: "home" },
+        { text: "Home", link: "/"},
         { text: "Apps", link: "/apps/index.md"},
+        { text: "Links", link: "/links/index.md"},
+        { text: "About", link: "/about/index.md"},
       ],
       sidebar: [
         {
@@ -46,6 +48,17 @@ export default hopeTheme({
                   link: "/apps/asl/install-app/",
                 }
               ],
+            },
+            {
+              text: "OASISMCAPI Community",
+              prefix: "/apps/asl",
+              collapsible: true,
+              children: [
+                {
+                  text: "Guide",
+                  link: "/apps/oasismcapi/guide/",
+                }
+              ],
             }
           ],
         },
@@ -54,8 +67,10 @@ export default hopeTheme({
     "/zh/": {
       logo: "/zh-logo.svg",
       navbar: [
-        { text: "首页", link: "/zh/", icon: "home" },
-        { text: "产品", link: "/apps/"},
+        { text: "首页", link: "/zh/"},
+        { text: "产品", link: "/zh/apps/"},
+        { text: "友链", link: "/zh/links/index.md"},
+        { text: "关于", link: "/zh/about/index.md"},
       ],
       sidebar: [
         {
@@ -75,6 +90,17 @@ export default hopeTheme({
                 {
                   text: "安装软件",
                   link: "/zh/apps/asl/install-app/",
+                }
+              ],
+            },
+            {
+              text: "OASISMCAPI Community",
+              prefix: "/zh/apps/oasismcapi",
+              collapsible: true,
+              children: [
+                {
+                  text: "Guide",
+                  link: "/apps/oasismcapi/guide/",
                 }
               ],
             }

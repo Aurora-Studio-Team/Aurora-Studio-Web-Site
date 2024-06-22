@@ -46,3 +46,8 @@ footer: Aurora Studio
 ::: info
 The documentation is being written and there may be errors in the content!
 :::
+
+::: tip
+### Community Contributors
+Community contributors who help us refine and improve the documentation, we'll put them on the thank you wall as a token of appreciation!
+:::

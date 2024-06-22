@@ -1,2 +1,2 @@
 # 产品
-[Aurora Star Launcher](/apps/asl/guide/)
+[Aurora Star Launcher](/zh/apps/asl/guide/)

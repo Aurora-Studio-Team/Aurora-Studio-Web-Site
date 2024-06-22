@@ -19,7 +19,7 @@ export default defineUserConfig({
   },
 
   head: [
-    
+
   ],
 
   theme,
