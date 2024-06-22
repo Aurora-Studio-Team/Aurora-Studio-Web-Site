@@ -1,0 +1,22 @@
+{
+  "name": "aurorastudio",
+  "version": "2.0.0",
+  "description": "Unleash your creativity,software shapes the future.",
+  "license": "GPL3.0",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-hope": "2.0.0-rc.50"
+  },
+  "dependencies": {
+    "element-plus": "^2.7.6"
+  }
+}
