@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "img\\logo.png",
 
   repo: "Aurora-Studio-Team/Aurora-Studio-Web-Site",
 
@@ -50,8 +50,8 @@ export default hopeTheme({
               ],
             },
             {
-              text: "OASISMCAPI Community",
-              prefix: "/apps/asl",
+              text: "Minecraft Manager API",
+              prefix: "/apps/mmapi",
               collapsible: true,
               children: [
                 {
@@ -94,13 +94,13 @@ export default hopeTheme({
               ],
             },
             {
-              text: "OASISMCAPI Community",
+              text: "Minecarft Manager API",
               prefix: "/zh/apps/oasismcapi",
               collapsible: true,
               children: [
                 {
-                  text: "Guide",
-                  link: "/apps/oasismcapi/guide/",
+                  text: "介绍",
+                  link: "/zh/apps/mmapi/guide/",
                 }
               ],
             }
