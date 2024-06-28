@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "img\\logo.png",
+  logo: "/img/logo.png",
 
   repo: "Aurora-Studio-Team/Aurora-Studio-Web-Site",
 
