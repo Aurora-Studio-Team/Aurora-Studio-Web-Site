@@ -2,7 +2,6 @@ import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import { hopeTheme } from "vuepress-theme-hope";
 import ElementPlus from 'element-plus';
-import 'element-plus/dist/index.css';
 
 import theme from "./theme.js";
 
