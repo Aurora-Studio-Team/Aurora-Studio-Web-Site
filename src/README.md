@@ -2,9 +2,9 @@
 home: true
 icon: home
 title: Aurora Studio
-heroImage: logo.png
-bgImage: 
-bgImageDark: 
+heroImage: /logo.png
+bgImage: /img/bg.jpg
+bgImageDark: /img/bg.jpg
 bgImageStyle:
   background-attachment: fixed
 heroText: Aurora Studio
