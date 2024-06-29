@@ -3,8 +3,8 @@ home: true
 icon: home
 title: Aurora Studio
 heroImage: /logo.png
-bgImage: /img/bg.jpg
-bgImageDark: /img/bg.jpg
+bgImage: 
+bgImageDark: 
 bgImageStyle:
   background-attachment: fixed
 heroText: Aurora Studio
@@ -21,8 +21,8 @@ highlights:
   - header: 
     description: 
     image: 
-    bgImage: /img/bg.jpg
-    bgImageDark: /img/bg.jpg
+    bgImage: 
+    bgImageDark: 
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
