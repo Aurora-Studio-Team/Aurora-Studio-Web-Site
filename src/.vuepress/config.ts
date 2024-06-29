@@ -21,7 +21,7 @@ export default defineUserConfig({
   },
 
   head: [
-    ["link", { rel: "preconnect", href: "https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest", crossorigin: "anonymous" }],
+    ["link", { rel: "preconnect", href: "https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest", crossorigin: "" }],
     ["link", {
       rel: "stylesheet",
       href: "https://cdn.jsdelivr.net/npm/quicksand@0.0.1/index.min.js"

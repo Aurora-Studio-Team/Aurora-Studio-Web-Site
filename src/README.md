@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Aurora Studio
-heroImage: \img\logo.png
+heroImage: logo.png
 bgImage: 
 bgImageDark: 
 bgImageStyle:
