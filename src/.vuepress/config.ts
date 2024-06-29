@@ -21,9 +21,7 @@ export default defineUserConfig({
   },
 
   head: [
-    // 预连接到字体服务
     ["link", { rel: "preconnect", href: "https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest", crossorigin: "anonymous" }],
-    // 导入 LXGW Wenkai 字体样式表
     ["link", {
       rel: "stylesheet",
       href: "https://cdn.jsdelivr.net/npm/quicksand@0.0.1/index.min.js"
