@@ -21,8 +21,8 @@ highlights:
   - header: 
     description: 
     image: 
-    bgImage: 
-    bgImageDark: 
+    bgImage: /img/bg.jpg
+    bgImageDark: /img/bg.jpg
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
