@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Aurora Studio
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: \img\logo.png
 bgImage: 
 bgImageDark: 
 bgImageStyle:
