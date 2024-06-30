@@ -2,7 +2,7 @@
 
 </script>
 
-<template>
+<template #botton>
   <div class="bgc">
     <br/>
     <br/>
@@ -83,6 +83,9 @@
 <style scoped>
   .bgc {
     background-color: #f1f1f1;
+  }
+  .bgc[data-theme="dark"] {
+    background-color: #1f1f1f;
   }
   a {
     color: black;

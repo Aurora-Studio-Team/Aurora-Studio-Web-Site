@@ -39,7 +39,7 @@ highlights:
         icon: 
         details: Our software features a brand new .Net8.0 .
 
-footer: ""
+footer: 
 ---
 
 ::: info
