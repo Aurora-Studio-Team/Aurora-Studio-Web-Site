@@ -2,7 +2,7 @@
 
 </script>
 
-<template #botton>
+<template #bottom>
   <div class="bgc">
     <br/>
     <br/>
