@@ -21,21 +21,26 @@ export default defineUserConfig({
   },
 
   head: [
-    ["link", { rel: "preconnect", href: "https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest", crossorigin: "" }],
+    ["link", { rel: "preconnect", href: "./Fonts", crossorigin: "" }],
     ["link", {
       rel: "stylesheet",
-      href: "https://cdn.jsdelivr.net/npm/quicksand@0.0.1/index.min.js"
+      href: "./Fonts/Quicksand.ttf"
     }],
+    ["link", {
+      rel: "stylesheet",
+      href: "./Fonts/Monaco.ttf"
+    }],
+    
   ],
 
   alias: {
     "@theme-hope/components/PageFooter": path.resolve(
       __dirname,
-      "../components/PageFooter.vue",
+      "./components/PageFooter.vue",
     ),
     "@theme-hope/components/HomePage": path.resolve(
       __dirname,
-      "../components/HomePage.vue",
+      "./components/HomePage.vue",
     ),
   },
 
