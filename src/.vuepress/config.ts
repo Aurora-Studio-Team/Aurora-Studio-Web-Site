@@ -30,19 +30,7 @@ export default defineUserConfig({
       rel: "stylesheet",
       href: "/Fonts/Monaco.ttf"
     }],
-    
   ],
-
-  alias: {
-    "@theme-hope/components/PageFooter": path.resolve(
-      __dirname,
-      "/components/PageFooter.vue",
-    ),
-    "@theme-hope/components/HomePage": path.resolve(
-      __dirname,
-      "/components/HomePage.vue",
-    ),
-  },
 
   theme,
 

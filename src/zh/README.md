@@ -39,9 +39,7 @@ highlights:
         icon: 
         details: 我们的软件采用全新的 .Net8.0 。
 
-
-copyright: Copyright (c) Aurora Studio 2024.All right reserved.
-footer: Aurora Studio
+footer: ""
 ---
 
 ::: info
