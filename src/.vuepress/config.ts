@@ -21,14 +21,14 @@ export default defineUserConfig({
   },
 
   head: [
-    ["link", { rel: "preconnect", href: "./Fonts", crossorigin: "" }],
+    ["link", { rel: "preconnect", href: "/Fonts", crossorigin: "" }],
     ["link", {
       rel: "stylesheet",
-      href: "./Fonts/Quicksand.ttf"
+      href: "/Fonts/Quicksand.ttf"
     }],
     ["link", {
       rel: "stylesheet",
-      href: "./Fonts/Monaco.ttf"
+      href: "/Fonts/Monaco.ttf"
     }],
     
   ],
@@ -36,11 +36,11 @@ export default defineUserConfig({
   alias: {
     "@theme-hope/components/PageFooter": path.resolve(
       __dirname,
-      "./components/PageFooter.vue",
+      "/components/PageFooter.vue",
     ),
     "@theme-hope/components/HomePage": path.resolve(
       __dirname,
-      "./components/HomePage.vue",
+      "/components/HomePage.vue",
     ),
   },
 
