@@ -7,6 +7,22 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
+  theme: hopeTheme(
+    {
+
+    },
+    {
+      { custom: true }
+    },
+  ),
+
+  alias: {
+    "@theme-hope/components/PageFooter": path.resolve(
+      __dirname,
+      "./components/PageFooter.vue",
+    ),
+  },
+
   locales: {
     "/": {
       lang: "en-US",
