@@ -9,10 +9,10 @@ export default defineUserConfig({
 
   theme: hopeTheme(
     {
-
+      
     },
     {
-      { custom: true }
+      custom: true
     },
   ),
 
