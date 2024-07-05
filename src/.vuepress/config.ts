@@ -6,15 +6,6 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
-  theme: hopeTheme(
-    {
-      
-    },
-    {
-      custom: true
-    },
-  ),
-
   alias: {
     "@theme-hope/components/PageFooter": path.resolve(
       __dirname,
