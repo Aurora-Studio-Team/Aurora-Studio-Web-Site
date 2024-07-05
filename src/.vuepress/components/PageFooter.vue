@@ -5,7 +5,6 @@
 <template>
   <div class="bgc">
     <br/>
-    <br/>
     <div class="Footer-X">
       <el-divider />
       <div>
@@ -76,16 +75,15 @@
       <br/>
     </div>
     <br/>
-    <br/>
   </div>
 </template>
 
 <style scoped>
   .bgc {
-    background-color: #f1f1f1;
+    background: var(--bg-color, #f1f1f1);
   }
-  .bgc[data-theme="dark"] {
-    background-color: #1f1f1f;
+  .bgc[data-theme="dark"]{
+    background: var(--bg-color, #1f1f1f);
   }
   a {
     color: black;
@@ -127,7 +125,7 @@
     margin-left: 5px;
   }
   .icon{
-        height: 25px;
-        width: 30px;
+      height: 25px;
+      width: 45px;
     }
 </style>
