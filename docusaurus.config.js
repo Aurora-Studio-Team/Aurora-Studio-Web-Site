@@ -120,7 +120,7 @@ const config = {
               },
               {
                 label: 'MPI',
-                to: '/docs/ampi',
+                to: '/docs/mpi',
               },
             ],
           },
