@@ -1,0 +1,22 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+.heroBar{
+  background-image: url('/img/bg/heroBG.png');
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+}
+.heroText p{
+  font-size: 20px;
+  color: white;
+}
+.heroText h1{
+  font-size: 40px;
+  color: white;
+}
+.heroBar p{
+  color: white;
+}

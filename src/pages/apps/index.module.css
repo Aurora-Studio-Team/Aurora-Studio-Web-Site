@@ -1,0 +1,12 @@
+.centerTitle{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.appsCard{
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: top; /* 垂直居中 */
+    height: 400px;
+}
